@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Hostal Nuevo Amanecer</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- ENCABEZADO Y MENÚ -->
+<header>
+    <h1>Hostal Nuevo Amanecer</h1>
+
+    <p>
+        Tu lugar de descanso en Laguna Colorada
+    </p>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Acerca del Hostal</a></li>
+            <li><a href="#habitaciones">Habitaciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- CONTENIDO PRINCIPAL -->
+<main>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio">
+
+        <h2>Bienvenidos al Hostal Nuevo Amanecer</h2>
+
+        <p>
+            Te damos la bienvenida al Hostal Nuevo Amanecer,
+            un lugar acogedor pensado para ofrecer comodidad
+            y descanso a los visitantes de la región.
+        </p>
+
+        <p>
+            Estamos ubicados en la zona de Laguna Colorada,
+            un lugar ideal para turistas que desean conocer
+            los increíbles paisajes del sudoeste boliviano.
+        </p>
+
+    </section>
+
+
+    <!-- SECCIÓN ACERCA DEL HOSTAL -->
+    <section id="nosotros">
+
+        <h2>Acerca del Hostal</h2>
+
+        <p>
+            El Hostal Nuevo Amanecer ofrece un ambiente cómodo
+            y tranquilo para turistas que visitan la región.
+        </p>
+
+        <p>
+            Nuestro objetivo es brindar un espacio agradable
+            donde nuestros visitantes puedan descansar después
+            de disfrutar de los atractivos turísticos de la zona.
+        </p>
+
+    </section>
+
+
+    <!-- SECCIÓN HABITACIONES -->
+    <section id="habitaciones">
+
+        <h2>Nuestras Habitaciones</h2>
+
+        <article>
+            <h3>Habitación Matrimonial</h3>
+
+            <p>
+                Habitación cómoda para parejas que buscan
+                disfrutar de una estancia tranquila.
+            </p>
+        </article>
+
+
+        <article>
+            <h3>Habitación Doble</h3>
+
+            <p>
+                Una opción ideal para dos personas que desean
+                compartir una estancia confortable.
+            </p>
+        </article>
+
+
+        <article>
+            <h3>Habitación Triple</h3>
+
+            <p>
+                Habitación pensada para grupos pequeños
+                de hasta tres personas.
+            </p>
+        </article>
+
+
+        <article>
+            <h3>Habitación Cuádruple</h3>
+
+            <p>
+                Una alternativa amplia para familias o grupos
+                de hasta cuatro personas.
+            </p>
+        </article>
+
+    </section>
+
+
+    <!-- SECCIÓN CONTACTO Y RESERVAS -->
+    <section id="contacto">
+
+        <h2>Contacto y Reservas</h2>
+
+        <p>
+            Si deseas hospedarte con nosotros, puedes
+            realizar una solicitud de reserva mediante
+            el siguiente formulario.
+        </p>
+
+
+        <form id="formulario-reserva">
+
+            <label for="nombre">
+                Nombre completo:
+            </label>
+
+            <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+            >
+
+
+            <label for="email">
+                Correo electrónico:
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+
+
+            <label for="telefono">
+                Teléfono:
+            </label>
+
+            <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                required
+            >
+
+
+            <label for="fecha">
+                Fecha de llegada:
+            </label>
+
+            <input
+                type="date"
+                id="fecha"
+                name="fecha"
+                required
+            >
+
+
+            <label for="habitacion">
+                Tipo de habitación:
+            </label>
+
+            <select
+                id="habitacion"
+                name="habitacion"
+                required
+            >
+
+                <option value="">
+                    Seleccione una habitación
+                </option>
+
+                <option value="matrimonial">
+                    Matrimonial
+                </option>
+
+                <option value="doble">
+                    Doble
+                </option>
+
+                <option value="triple">
+                    Triple
+                </option>
+
+                <option value="cuadruple">
+                    Cuádruple
+                </option>
+
+            </select>
+
+
+            <label for="mensaje">
+                Mensaje:
+            </label>
+
+            <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="5"
+                placeholder="Escriba aquí su consulta..."
+            ></textarea>
+
+
+            <button type="submit">
+                Solicitar reserva
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<!-- PIE DE PÁGINA -->
+<footer>
+
+    <p>
+        &copy; 2026 Hostal Nuevo Amanecer.
+       
+    </p>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+
+</html>
